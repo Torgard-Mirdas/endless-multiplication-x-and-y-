@@ -17,13 +17,10 @@ int main()
         cout << "Your previous number is: " << x << endl;
         cout << "Enter next number or 'e' to exit: ";
         cin >> x;
-        cout<<x << "x" << endl;
         
         if (x != "e") {
             y = stoi(x);
-            cout << y << " y "<< endl;
             z *= y;
-            cout<<z << "z " << endl;
             cout << "Result after multiplication: " << z << endl;
             x=to_string(z);
         }
